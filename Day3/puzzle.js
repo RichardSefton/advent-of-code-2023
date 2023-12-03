@@ -21,7 +21,7 @@ import { input } from './input.js';
 //Looks like we get to have fun with a matrix (n, m) in this one.
 //This would probably be easier in python...
 
-const parseInput = (pInput) => pInput.split('\n');
+export const parseInput = (pInput) => pInput.split('\n');
 
 const inputArr = parseInput(input);
 
